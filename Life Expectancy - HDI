@@ -89,7 +89,7 @@ If we click one continent, the font letter from that continent will turn grey wh
 
 If we double-click one continent, we will only see the countries within that continent.
 
-This is very useful in order to compare country trend among different countries.
+This is very useful in order to compare yearly trend among different countries.
 
 
 5. Plotly code
