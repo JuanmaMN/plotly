@@ -17,15 +17,14 @@ library(readr)
 
 data_plotly <- read_csv("~/data_plotly.csv")
 View(data_plotly)
-data_plotly_2 <- read_csv("~/data_plotly_2.csv")
-View(data_plotly_2)
+
 
 ```
 2.  Comments
 
 ## Life Expectancy - Human Development Data
 
-This document provides an analysis of Life Expectancy and Human Development Data.
+This document provides an analysis of Life Expectancy and Human Development Data by country.
 
 Data sources used:
 
@@ -41,7 +40,7 @@ Data sources used:
 library(knitr)
 library(kableExtra)
 
-kable(data_plotly_2[1:5,], "html", caption = "Sample Data Table.", align=c(rep('c', 5))) %>%  kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
+kable(data_plotly[1:5,], "html", caption = "Sample Data Table.", align=c(rep('c', 5))) %>%  kable_styling(bootstrap_options = "striped", full_width = F, position = "center")
 
 
 
@@ -75,7 +74,7 @@ Colour refers to country and bubble size is according to Population size.
 
 Below the graph, we have a "play" button which can be used to play the animated plotly and see the yearly trend.
 
-When we hover over in one bubble point, we can see all the information on that specific country.
+When we hover over one bubble point, we can see all the information on that specific country.
 
 
 
@@ -88,7 +87,7 @@ By default, the graph will show all countries in all continents.
 
 If we click one continent, the font letter from that continent will turn grey which means that all countries within that continent will not display on the graph.
 
-If we double-click one continent to only see the countries within that continent.
+If we double-click one continent, we will only see the countries within that continent.
 
 This is very useful in order to compare country trend among different countries.
 
@@ -134,6 +133,6 @@ p
 
 
 
-The code for this article is publish in my [github account](https://github.com/).
+The code for this article is publish in my [github account](https://github.com/JuanmaMN).
 
 Please feel free to reach out for any question or feedback.
