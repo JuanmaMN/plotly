@@ -7,4 +7,3 @@
 
 
 
-> All analysis have been published online in my profile. For any question, please feel free to contact.
