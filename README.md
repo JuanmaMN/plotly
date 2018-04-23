@@ -5,5 +5,6 @@
 
 2. Climate at a Glance: [link](http://rpubs.com/Juanma7/380632)
 
+3. Firms with female top manager (% of firms): [link](http://rpubs.com/Juanma7/382414)
 
 
