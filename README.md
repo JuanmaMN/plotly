@@ -7,4 +7,6 @@
 
 3. Firms with female top manager (% of firms): [link](http://rpubs.com/Juanma7/382414)
 
+4. Environment - CO2 emissions (kt) by decade: [link](https://juanmaintro.netlify.com/2019/05/10/co2-emissions-kt-by-decade/)
+
 
