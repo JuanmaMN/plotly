@@ -1,16 +1,42 @@
 # Plotly analysis published
 
 
-1. Life Expectancy - Human Development Index (HDI):  [link](http://rpubs.com/Juanma7/378876)
+# Plotly
 
-2. Climate at a Glance: [link](http://rpubs.com/Juanma7/484018)
+Code for all the plotly analyses done and published.
 
-3. Firms with female top manager (% of firms): [link](http://rpubs.com/Juanma7/382414)
+### **Life Expectancy - HDI - 1990 - 2016**
 
-4. Environment - CO2 emissions (kt) by decade: [link](https://juanmaintro.netlify.com/2019/05/10/co2-emissions-kt-by-decade/)
+This animated plotly provides an analysis of Life Expectancy and Human Development Data by country.
 
-5. Health & Education Expenditure by country - 2000 - 2016  [link](https://bit.ly/2W6tZLM)
+### **Climate at a Glance - Global Temperature Anomalies**
+
+Average temperature data shows a rise in global average temperature over the past several decades year.
+
+
+### **Children out of school (primary) - Analysis**
+
+According to World Bank, in 2018, 59.1 million children were out of school (primary) in the World.
+
+### **Environment - CO2 emissions (kt) by decade**
+
+The following graph analyzes the Carbon dioxide emissions trend by decade. Emissions continue to increase decade by decade significantly since the study started according to World Bank data
+
+### **Premier League - Season Analysis**
+
+### **Rugby World Cup - Japan 2019 - Pool stages analysis**
+
+## Other animated plotly graphs
+
+
+#### **GINI Index - GNI per capita - 1990 - 2016**
+
+####  **Health & Education Expenditure by country - 2000 - 2016**
+
+####  **Life Expectancy - GNI per capita ($) - 1990 - 2016**
 
 
 
-![Health - Education %](https://user-images.githubusercontent.com/37122520/63378560-604be300-c38a-11e9-803f-4eeed655ab56.gif)
+
+
+
