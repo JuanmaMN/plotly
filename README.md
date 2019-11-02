@@ -1,7 +1,5 @@
-# Plotly analysis published
+# Plotly analyses published
 
-
-# Plotly
 
 Code for all the plotly analyses done and published.
 
