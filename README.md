@@ -43,7 +43,7 @@ The following graph analyzes the Carbon dioxide emissions trend by decade. Emiss
 <br>
 
 <p align="center">
-<img width="460" alt="Pollution" src="https://user-images.githubusercontent.com/37122520/68069841-bdd2b780-fd5d-11e9-9933-91fca8e5057f.png">
+<img width="755" alt="Pollution" src="https://user-images.githubusercontent.com/37122520/68069841-bdd2b780-fd5d-11e9-9933-91fca8e5057f.png">
 </p>
 <br>
 
@@ -67,9 +67,9 @@ Season analysis all of Premier league teams
 </p>
 <br>
 
-## Other animated plotly graphs
 
-####  **Health & Education Expenditure by country - 2000 - 2016**
+
+###  **Health & Education Expenditure by country - 2000 - 2016**
 
 <br>
 <p align="center">
@@ -80,9 +80,10 @@ Season analysis all of Premier league teams
 <br>
 
 
+
+## Other animated plotly graphs
+
 #### **GINI Index - GNI per capita - 1990 - 2016**
-
-
 
 ####  **Life Expectancy - GNI per capita ($) - 1990 - 2016**
 
