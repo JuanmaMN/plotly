@@ -69,10 +69,20 @@ Season analysis all of Premier league teams
 
 ## Other animated plotly graphs
 
+####  **Health & Education Expenditure by country - 2000 - 2016**
+
+<br>
+<p align="center">
+
+![Health - Education %](https://user-images.githubusercontent.com/37122520/63378560-604be300-c38a-11e9-803f-4eeed655ab56.gif)
+
+</p>
+<br>
+
 
 #### **GINI Index - GNI per capita - 1990 - 2016**
 
-####  **Health & Education Expenditure by country - 2000 - 2016**
+
 
 ####  **Life Expectancy - GNI per capita ($) - 1990 - 2016**
 
