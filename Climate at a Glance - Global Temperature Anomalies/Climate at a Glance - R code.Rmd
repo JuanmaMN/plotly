@@ -1,0 +1,102 @@
+---
+title: Climate at a Glance - Global Temperature Anomalies
+author: Juanma
+date: '2020-09-03'
+slug: climate-at-a-glance-global-temperature-anomalies
+categories:
+  - R
+tags:
+  - R
+  - World Data
+image:
+  caption: 'Photo by Jacqueline Godany on Unsplash'
+  focal_point: ''
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(ggplot2)
+library(plotly)
+
+library(readxl)
+Temperature <- read_excel("data - Temperature.xlsx")
+View(Temperature)
+
+
+Temperature$colour <- ifelse(Temperature$Value < 0, "firebrick1","steelblue")
+
+Temperature_2<-select(Temperature,1:2)
+```
+
+
+<br>
+
+<h2 style="text-align: center;">Global Land and Ocean Temperature Anomaly data - Time Series </h2>
+
+<br>
+
+
+
+[The National Oceanic and Atmospheric Administration](https://www.noaa.gov/) has published the time series of temperature anomalies.
+
+Average temperature data shows a rise in global average temperature over the past several decades. 
+
+- [Data source](https://www.ncdc.noaa.gov/cag/global/time-series)
+
+- [For more information](https://www.ncdc.noaa.gov/cag/global/data-info)
+
+Please find the analysis using both plotly and ggplot as a project.
+
+
+<br>
+
+<h2 style="text-align: center;">Global Land and Ocean Temperature Anomalies </h2>
+
+<br>
+
+```{r plot, echo=FALSE, warning = FALSE}
+
+
+ plot_ly(Temperature, 
+         x=~Year, 
+         y=~Value, 
+         mode="markers", 
+         #hoverinfo = "text",
+         type="bar", 
+         color=~colour , 
+         text = ~paste('Year: ', Year, '</br> Value(°C): ', Value)) %>% 
+   layout(xaxis = list(title = ""), yaxis = list(title = "anomaly(°C)"),
+         font = list(
+           family = "Arial",
+           size = 10)
+          )%>% 
+  hide_legend()%>% 
+  layout(plot_bgcolor='#f4efe1', autosize = F) %>% 
+  layout(paper_bgcolor='#f4efe1')  %>%
+  add_annotations(xref = 'paper', yref = 'paper',
+                  x = 0.05, y = 0.95,
+                  text = paste('Source:Data from www.ncdc.noaa.gov\n Visualization: JuanmaMN (Twitter @Juanma_MN)'),
+                  font = list(family = 'Arial', size = 8, color = 'rgb(150,150,150)'),
+                  showarrow = FALSE) 
+
+```
+
+
+
+
+<br>
+
+
+
+
+**Code, questions and feedback**
+
+The code for this article is published in my [github account](https://github.com/JuanmaMN/plotly).  
+
+
+Please feel free to follow me on my [Twitter account](https://twitter.com/Juanma_MN) and ask any question or feedback you might have.
+
+Thank you very much for your time  in reading the article.
